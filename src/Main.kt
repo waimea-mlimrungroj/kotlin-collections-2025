@@ -50,7 +50,7 @@ fun main() {
 
     }
     // loop using index
-    for (i in 0..snacks.size) {
+    for (i in 0 ..< snacks.size) {
         println("$i: ${snacks[i]}")
     }
     // loop getting index and values
